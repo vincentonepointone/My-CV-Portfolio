@@ -1,0 +1,171 @@
+ <!DOCTYPE html>
+    <html>
+    <title>Vincent du Plessis</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./w3.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="../../cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        html,
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Roboto", sans-serif
+        }
+    </style>
+    
+    <body>
+    
+        <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-blue " style="display:none" id="mySidebar">
+            <button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+            <a href="C:\MY CV\index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="C:\MY CV\mywork.html" class="w3-bar-item w3-button">My Work</a>
+            <a href="#" class="w3-bar-item w3-button">Contact Me</a>
+        </div>
+    
+        <div id="main" style="width: max-width;" class="w3-animate-opacity ">
+    
+            <div class="w3-blue">
+                <button id="openNav" class="w3-button w3-blue w3-xlarge" onclick="w3_open()">&#9776;</button>
+                <div class="w3-container" style="display: inline-block;">
+                    <h1 class="w3-animate-zoom">Vincent du Plessis Memory Game</h1>
+                </div>
+            </div>
+    
+            <!-- Overlay effect when opening sidebar on small screens -->
+            <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"
+                id="myOverlay"></div>
+    
+            <!-- !PAGE CONTENT! -->
+            <div class="w3-main">
+    
+                <!-- Page Container -->
+                <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    
+                    <!-- The Grid -->
+                    <div class="w3-row-padding">
+    
+                        <!-- Left Column -->
+                        <div class="w3-third ">
+    
+                            <div class="w3-white w3-text-grey w3-card-4">
+                                <div class="w3-display-container w3-animate-right">
+                                    <img src="./cv pic.jpg" style="width:100%" alt="Avatar">
+                                    <div class="w3-display-bottommiddle w3-container w3-text-black">
+                                        <h2 style="color:white;">Vincent </br>du Plessis</h2>
+                                    </div>
+                                </div>
+                                <div class="w3-container">
+                                    <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-black"></i> Web
+                                        Developer</p>
+                                    <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-black"></i>Johanesburg
+                                        Gauteng</p>
+                                    <p><i
+                                            class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-black"></i>vinduples@gmail.com
+                                    </p>
+                                    <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-black"></i>084 441 9829
+                                    </p>
+                                    <hr>
+    
+                                    <p class="w3-large"><b><i
+                                                class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
+                                    <p>HTML</p>
+                                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                                        <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:99%">99%
+                                        </div>
+                                    </div>
+                                    <p>CSS</p>
+                                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                                        <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:80%">
+                                            <div class="w3-center w3-text-white">80%</div>
+                                        </div>
+                                    </div>
+                                    <p>JavaScript</p>
+                                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                                        <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:75%">75%
+                                        </div>
+                                    </div>
+                                    <p>React/React-Native</p>
+                                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                                        <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:50%">50%
+                                        </div>
+                                    </div>
+                                    <p>Node.js/ Express</p>
+                                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                                        <div class="w3-container w3-center w3-round-xlarge w3-blue" style="width:33%">33%
+                                        </div>
+                                    </div>
+    
+                                    <br>
+    
+                                    <p class="w3-large w3-text-theme"><b><i
+                                                class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
+                                    <p>English</p>
+                                    <div class="w3-light-grey w3-round-xlarge">
+                                        <div class="w3-round-xlarge w3-blue" style="height:24px;width:100%"></div>
+                                    </div>
+                                    <p>Afrikaans</p>
+                                    <div class="w3-light-grey w3-round-xlarge ">
+                                        <div class="w3-round-xlarge w3-blue" style="height:24px;width:100%"></div>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div><br>
+    
+                            <!-- End Left Column -->
+                        </div>
+    
+                        <!-- Right Column -->
+                        <div class="w3-twothird">
+    
+                            <div class="w3-container w3-card w3-white w3-margin-bottom">
+                                <h2 class="w3-text-black w3-padding-16"><i
+                                        class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>The previosly buggy Memory Game:</h2>
+                                <p>I copied the code from a YouTubers' course but noticed a litle bug. The function that pics and flips a card was still available to be called  while the evaluation for a match was made So if a user click's a 3rd card before the evaluation completes the array gets reset after evaluation while the 3rd cards' image source is not reset. So I decided to completely remove the eventListener's while evaluating, it prooved to be a challenge as the node lists' eventlistener's needed to be amended again after a match was cheked for. I then used the ES6 array method for the node list accomponanied with a new array I created of correct card's chosen to re add the eventlistener's after the evaluation was compleet.<br>See the Original game with the bug here => <a href="./memory-game-master/index.html">Original Game</a></p>
+                                <div class="w3-container">
+                                   
+                                    
+                                    <h1> Results: <span class="result"></span></h1>
+                                    <div class="grid" class="bg-pink"></div>
+                                    <button class="btn btn-primary" id="newGame">New Game</button>
+                                    <script src="./main.js"></script>
+                                    <hr>
+                                </div>
+    
+                                <!-- End Right Column -->
+                            </div>
+    
+                            <!-- End Grid -->
+                        </div>
+    
+                        <!-- End Page Container -->
+                    </div>
+    
+                    <footer class="w3-container w3-blue w3-center w3-margin-top">
+                        <p>Find me on social media.</p>
+                        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+                        <i class="fa fa-instagram w3-hover-opacity"></i>
+                        <i class="fa fa-snapchat w3-hover-opacity"></i>
+                        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+                        <i class="fa fa-twitter w3-hover-opacity"></i>
+                        <i class="fa fa-linkedin w3-hover-opacity"></i>
+                        <p>Powered by <a href="default.html" target="_blank">w3.css</a></p>
+                    </footer>
+    
+    
+                </div>
+    
+    
+    
+    
+    
+                <script src="./w3cssscript.js"></script>
+    </body>
+
+</html>
