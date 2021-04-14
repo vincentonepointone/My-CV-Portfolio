@@ -1,0 +1,14 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "Node Server Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Vincent du Plessis",
+  "license": "ISC",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
