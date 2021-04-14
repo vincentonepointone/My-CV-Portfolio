@@ -1,0 +1,36 @@
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif
+    }   
+@media only screen and (max-width: 425px) {
+    body {
+        background-color: lightblue;
+    }
+    .name {
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+        .navlink {
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+}
+@media only screen and (max-width: 325px) {
+    body {
+        background-color: lightblue;
+    }
+    .name {
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+    .navlink {
+        font-size: 0.8rem;
+        font-weight: bolder;
+    }
+}
