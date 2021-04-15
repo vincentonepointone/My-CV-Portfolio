@@ -7,7 +7,10 @@
     h5,
     h6 {
         font-family: "Roboto", sans-serif
-    }   
+    } 
+    .display {
+        display: none;
+    }  
 @media only screen and (max-width: 425px) {
     body {
         background-color: lightblue;
@@ -20,6 +23,10 @@
                 font-size: 1rem;
         font-weight: bolder;
     }
+    .display {
+        display: block;
+    } 
+
 }
 @media only screen and (max-width: 325px) {
     body {
@@ -33,4 +40,11 @@
                 font-size: 0.8rem;
         font-weight: bolder;
     }
+    .display {
+        display: block;
+    } 
+    
+}
+.small-screen {
+    font-size: 1.2rem;
 }
