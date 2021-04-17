@@ -5,5 +5,5 @@ asuming you have node installed
 just cd into directory 
 and run the index.js script in your terminal
 liko so:    node index
-I im curently hosting it on heroku @: https://polar-tundra-08240.herokuapp.com/ Thanks to Traversy Media (youtube)
+I im curently hosting it on heroku @: https://vincentcv.herokuapp.com/ Thanks to Traversy Media (youtube)
 disclaimer it's still in testing.
