@@ -4,6 +4,6 @@ It uses nodes' core modules so no need to intall any packages
 asuming you have node installed 
 just cd into directory 
 and run the index.js script in your terminal
-liko so:    node index
+liko so:    node index   . it will be running on localhost:5000
 I im curently hosting it on heroku @: https://vincentcv.herokuapp.com/ Thanks to Traversy Media (youtube)
 disclaimer it's still in testing.
